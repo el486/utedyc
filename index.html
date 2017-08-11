@@ -14,6 +14,7 @@
 		<script>
 			$(document).ready(function(){
 				//Examples of how to assign the Colorbox event to elements
+				/*
 				$(".group1").colorbox({rel:'group1'});
 				$(".group2").colorbox({rel:'group2', transition:"fade"});
 				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
@@ -39,7 +40,8 @@
 					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
 					return false;
 				});
-				//$("a").trigger("click");
+				*/
+				$.colorbox({open:true,href:"http://www.mosp.gba.gov.ar/sig_hidraulica/ms/heron/utedyc/",iframe:true, width:"99%", height:"99%"});`
 			});
 		</script>
 	</head>
